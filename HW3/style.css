@@ -52,6 +52,10 @@
             color: #000000;
         }
         
+        .content_text {
+            background: #FAFAFA;
+        }
+        
         .h3 {
             padding-top: 92px;
             font-family: 'Gilroy-Bold';
@@ -61,7 +65,6 @@
             display: flex;
             justify-content: center;
             padding-bottom: 19px;
-            background: #FAFAFA;
         }
         
         .p {
@@ -71,7 +74,9 @@
             display: flex;
             justify-content: center;
             padding-bottom: 54px;
-            background: #FAFAFA;
+            text-align: center;
+            width: 682px;
+            margin: auto;
         }
         
         .content {
@@ -88,6 +93,7 @@
             display: grid;
             justify-items: center;
             height: 549px;
+            background: #FFFFFF;
         }
         
         .item_shadow {
