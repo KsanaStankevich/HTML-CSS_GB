@@ -1,26 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.top {
-    padding-bottom: 96px;
-}
-
-.header {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.top_content {
-    margin-top: 143px;
-    margin-bottom: 103px;
-}
-
-.title {
-    margin-bottom: 17px;
-}
-
-.top_buttons {
-    margin-top: 37px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .top {
+        padding-bottom: 96px;
+    }
+    
+    .header {
+        padding-top: 45px;
+        padding-bottom: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .header_link {
+        margin: 16.41px;
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height */
+        color: #000000;
+        text-decoration: none
+    }
+    
+    .header_link_home {
+        margin: 16.41px;
+        color: #F25822;
+        text-decoration: none
+    }
+    
+    .top_content {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Gilroy-Bold';
+        width: 522px;
+        font-size: 60px;
+        line-height: 70px;
+        color: #000000;
+    }
+    
+    .text {
+        padding-top: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 466px;
+        font-family: 'Gilroy-Medium';
+        font-size: 20px;
+        line-height: 23px;
+        color: #888888;
+    }
+    
+    .top_buttons {
+        padding-top: 37px;
+        display: flex;
+        gap: 72px;
+        padding-bottom: 162px;
+    }
+    
+    .top_logos {
+        padding-top: 97px;
+        padding-bottom: 96px;
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+    }
+    
+    .button {
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        width: 140px;
+        height: 50px;
+        background: #F25822;
+        box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+        border-radius: 50px;
+    }
+    
+    .but_text {
+        padding-top: 15px;
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+        line-height: 18px;
+        color: #AAAAAA;
+    }
