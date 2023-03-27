@@ -12,6 +12,11 @@
     font-family: "Lato";
 }
 
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
 .header {
     background: #222222;
     display: flex;
@@ -37,12 +42,13 @@
 .section_logo {
     background: #F1E4E6;
     display: flex;
+    justify-content: flex-start;
 }
 
 .item_pic {
     width: 50%;
     display: grid;
-    place-items: center;
+    justify-content: flex-end;
 }
 
 .item_text {
@@ -239,4 +245,57 @@
     line-height: 19px;
     color: #F26376;
     background: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+    .header {
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 41px;
+    }
+    .logo_text {
+        font-size: 44px;
+    }
+    .item_pic {
+        width: 50%;
+    }
+    .man {
+        width: 100%;
+    }
+    .logo_text {
+        font-size: 44px;
+        margin-left: 39px;
+        line-height: 53px;
+        font-weight: 700;
+    }
+    .logo_text1 {
+        font-size: 24px;
+        margin-left: 39px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+    .section_menu {
+        grid-template-columns: repeat(3, 231px);
+        gap: 19px;
+        padding-bottom: 109px;
+    }
+    .menu_pic {
+        width: 100%;
+    }
+    .menu_pic1 {
+        width: 731px;
+    }
+    .section_items {
+        padding-top: 72px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+    .button {
+        padding-top: 32px;
+        padding-bottom: 60px;
+    }
 }
