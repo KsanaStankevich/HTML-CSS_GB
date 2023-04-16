@@ -1,0 +1,197 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+    }
+    .header {
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 41px;
+    }
+    .logo_text {
+        font-size: 44px;
+    }
+    .item_pic {
+        width: 50%;
+    }
+    .man {
+        width: 100%;
+    }
+    .logo_text {
+        font-size: 44px;
+        margin-left: 39px;
+        line-height: 53px;
+        font-weight: 700;
+    }
+    .logo_text1 {
+        font-size: 24px;
+        margin-left: 39px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+    .section_menu {
+        grid-template-columns: repeat(3, 231px);
+        gap: 19px;
+        padding-bottom: 109px;
+    }
+    .menu_pic {
+        width: 100%;
+    }
+    .menu_block1 {
+        height: 116.04px;
+        width: 731px;
+    }
+    .section_items {
+        padding-top: 72px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+    .button {
+        padding-top: 32px;
+        padding-bottom: 60px;
+    }
+    .footer_black {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        grid-template-columns: repeat(1, 360px);
+        gap: 48px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 360px);
+        gap: 48px;
+    }
+    .autor {
+        padding-top: 53px;
+        padding-bottom: 0px;
+    }
+    .subscribe {
+        padding-top: 0px;
+        padding-bottom: 140px;
+    }
+    .footer_brand {
+        padding-left: 22px;
+        padding-right: 23px;
+    }
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 179px);
+        padding-right: calc(50% - 179px);
+    }
+    .icon4 {
+        display: none;
+    }
+    .icon5 {
+        display: none;
+    }
+    .header {
+        justify-content: space-between;
+        padding-left: 16px;
+        padding-right: 30px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .h_left {
+        gap: 41px;
+    }
+    .h_right {
+        display: flex;
+        gap: 33px;
+        place-items: center;
+    }
+    .section_logo {
+        padding-top: 148px;
+        padding-bottom: 149px;
+    }
+    .item_pic {
+        display: none;
+    }
+    .item_text {
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .logo_text {
+        font-size: 38px;
+        padding-left: 15px;
+        line-height: 44.4px;
+    }
+    .logo_text1 {
+        font-size: 20px;
+        padding-left: 15px;
+        line-height: 26px;
+    }
+    .section_menu {
+        padding-top: 64px;
+        grid-template-columns: repeat(1, 343px);
+        gap: 32px;
+        padding-bottom: 64px;
+    }
+    .menu_block1 {
+        height: 111px;
+        width: 343.26px;
+    }
+    .menu_pic1 {
+        display: none;
+    }
+    .menu_text1 {
+        width: 100%;
+    }
+    .section_items {
+        padding-top: 64px;
+        grid-template-columns: repeat(1, 359px);
+    }
+    .item_title {
+        margin-left: 18px;
+        padding-top: 25px;
+    }
+    .item_text {
+        margin-left: 17px;
+        padding-top: 12.62px;
+    }
+    .price {
+        padding-top: 18px;
+        padding-bottom: 2 q 0px;
+    }
+    .button {
+        padding-top: 41px;
+        padding-bottom: 85px;
+    }
+    .autor_res {
+        width: 343px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .subscribe {
+        padding-bottom: 109px;
+    }
+    .subscribe_p {
+        font-size: 14px;
+        padding-bottom: 22px;
+    }
+    .input_email {
+        width: 219px;
+    }
+    .subscribe_btt {
+        width: 95px;
+    }
+    .footer {
+        gap: 59px;
+        background-position: center;
+    }
+    .footer_brand {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 9px;
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+    .footer_brand_icon {
+        padding-top: 43px;
+    }
+    .footer_brand_p {
+        padding-top: 40px;
+    }
+}
